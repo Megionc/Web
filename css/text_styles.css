@@ -1,0 +1,105 @@
+main {
+	width: 100vw;
+	height: 150vh;
+	display: flex;
+}
+
+.media{
+	width: 46vw;
+}
+
+.h1{
+	margin-left: 18vw;
+	font-size: 45px;
+	color: rgb(36, 231, 208);
+	font-family: cursive;
+	margin-top: 40px;
+	text-shadow: 4px 4px 6px white;
+}
+
+.price {
+	margin-left: 60px;
+	font-size: 35px;
+	color: white;
+	font-family: cursive;
+}
+
+.Media{
+	width: 48vw;
+	margin-left: 2vw;
+}
+
+h2{
+	font-size: 30px;
+	color: rgb(224, 171, 255);
+	font-family: cursive;
+	margin-top: 40px;
+	text-shadow: 4px 4px 8px rgb(235, 14, 14);
+}
+
+.text{
+	font-size: 18px;
+	color: white;
+	margin-top: 8px;
+	font-family: cursive;
+}
+
+.media-right{
+	width: 45vw;
+	margin-left: 2vw;	
+}
+
+.media_com{
+	width: 90vw;
+	height: 20vh;
+}
+
+h3{
+	margin-left: 28vw;
+	font-size: 45px;
+	color: rgb(87, 168, 111);
+	font-family: cursive;
+	margin-top: 25px;
+	text-shadow: 4px 4px 6px rgb(106, 0, 255);
+}
+
+.text_com{
+	margin-left: 60px;
+	font-size: 30px;
+	color: white;
+	font-family: cursive;
+}
+
+h4{
+	margin-left: 28vw;
+	font-size: 45px;
+	color: rgb(255, 179, 38);
+	font-family: cursive;
+	margin-top: 25px;
+	text-shadow: 4px 4px 6px rgb(0, 170, 255);
+}
+
+.Gan{
+	width: 46vw;
+	margin-left: 2vw;
+}
+
+.cube{
+	width: 46vw;
+	margin-left: 2vw;
+}
+
+h5{
+	font-size: 30px;
+	color: rgb(224, 171, 255);
+	font-family: cursive;
+	margin-top: 40px;
+	text-shadow: 4px 4px 8px rgb(235, 14, 14);
+}
+
+.text_gan{
+	font-size: 18px;
+	color: white;
+	margin-top: 8px;
+	font-family: cursive;
+}

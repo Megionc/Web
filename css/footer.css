@@ -1,0 +1,12 @@
+footer {
+	background: #3729699f;
+	color: #eae2e2;
+	font-size: 11px;
+}
+
+.footer {
+	width: 90vw;
+	margin: auto;
+	padding: 10px 0;
+	height: 80px;
+}

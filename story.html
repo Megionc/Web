@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/menu_styles.css">
+    <link rel="stylesheet" href="css/text_styles.css">
+    <link rel="stylesheet" href="css/png_styles.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+</head>
+    <body>
+        <nav>
+            <div class="logo">Story</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Story</li>
+                <li><a href="companies.html">Companies</a></li>
+                <li><a href="recordt.html">Recordts</a></li>
+                <li><a href="review.html">Review</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="Media">
+                <h2 onclick="toggleText('Idea')">Idea</h2>
+		        <div class="text" id="Idea">The eye of the creator was 
+                    attracted by an ordinary river pebble. It was thought that 
+                    its sharp edges eventually wear down the current, 
+                    rubbing stone against stone, until it acquires a 
+                    simple and perfect form. And then Rubik decided to 
+                    properly "grind" his cubes. Naturally, I had to 
+                    discard everything superfluous. As it is easy to 
+                    calculate, 26 small cubes have a total of 156 faces. 
+                    Of these, Rubik boldly cut off more than a hundred 
+                    and left only 54 outer faces: one-color for six 
+                    central cubes, two-color for twelve side ones, 
+                    and three-color for eight corner ones.
+                </div>
+                <h2 onclick="toggleText('Erno')">Erno Rubik</h2>
+		        <div class="text" id="Erno">Erno Rubik, at that moment still an 
+                    ordinary teacher, works at the Academy of Applied 
+                    Arts in Budapest. Having made a cube model as a 
+                    visual aid for teaching students, he realizes that 
+                    he has invented a rather serious and interesting 
+                    puzzle and a year later, in 1975, he receives a 
+                    patent for it. The first batches of the cube were 
+                    released in Hungary and sold in a toy store, due to 
+                    which, most likely, not many people tried to deal 
+                    with it seriously. Later, the puzzle spread to other 
+                    Western countries, France, England, and the USA. 
+                    Their debut took place, as well as in Hungary, at 
+                    toy fairs, thanks to which the cube received the 
+                    status of the same name there.
+                </div>
+            </div>
+            <div class="media-right">
+                <h2 onclick="toggleText('Cube')">Rubik's Cube</h2>
+		        <div id="Cube">
+                    <div class="text">The standard 3×3 Rubik's Cube has 
+                        54 visible colored squares and 88,580,102,706,155,
+                        225,088,000 arrangement options. 
+                    </div>
+                    <div class="text">Fans of this puzzle 
+                        around the world also practice "speedcubing" - 
+                        the speed assembly of the Rubik's cube, which is 
+                        used for international competitions of a serious 
+                        scale. To date, a lot of official records have been 
+                        set for solving the Rubik's Cube in the classical 
+                        style, under water, blindfolded, with feet, etc. 
+                        In addition, there are many alternative puzzles 
+                        based on the Rubik's Cube.
+                    </div>
+                    <div class="text">In general, the world of speedcubing 
+                        is very vast and diverse. Who knows where it will 
+                        lead you, because the world of puzzles does not end 
+                        with one Rubik's Cube. There are thousands of 
+                        modifications and various puzzles for every taste, 
+                        which will not let you get bored even for a second.
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script>
+            function toggleText(id) {
+		var text = document.getElementById(id);
+		if (text.style.display === 'none') {
+			text.style.display = 'block';
+		    } else {
+			text.style.display = 'none';
+		    }
+	    }
+        </script>
+
+        <footer>
+            <div class="footer">
+                <div id="social">
+                    <h1>SOCIAL NETWORKS</h1>
+                    <a href="http://twitter.com/" class="social-icon twitter"></a>
+                    <a href="http://google.com/" class="social-icon google"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

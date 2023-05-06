@@ -1,0 +1,40 @@
+p {
+	margin: 20px;
+}
+
+main form {
+    margin-left: 30vw;
+	background-color:#874bff;
+	padding: 5px 80px;
+}
+
+input[type="submit"], button {
+	color: #120d0d;
+	background-color: #29c5e6;
+	border: none;
+	height: 32px;
+    width: 150px;
+	font-family: 'Oswald', sans-serif;
+}
+
+input[type="text"], input[type="search"], input[type="email"] {
+	background-color: #ffc1c1;
+	border: 1px solid #347bde;
+	height: 30px;
+	color: #190404;
+	padding: 0 40px;
+	vertical-align: top;
+}
+
+.sinput {
+	float: right;
+}
+
+textarea {
+	background-color: #cf6c6c;
+	border: 1px solid #e6baba;
+	height: 100px;
+	color: #303030;
+	padding: 0 10px;
+	vertical-align: top;
+}

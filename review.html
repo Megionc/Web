@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/menu_styles.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/png_styles.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Review</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="story.html">Story</a></li>
+            <li><a href="companies.html">Companies</a></li>			
+            <li><a href="recordt.html">Recordts</a></li>
+            <li>Review</li>
+        </ul>
+    </nav>
+    <main id="contact">
+        <section>
+            <form id="contactform" onsubmit="formSubmit(this)">
+                <fieldset>
+                  <legend>CONTACT US</legend>
+                  <p><label for="fname">Имя :     </label><br><input type="text" name="fname"></p>
+                  <p><label for="lname">Фамилия : </label><br><input type="text" name="lname"></p>
+                  <p><label for="email">E-mail :  </label><br><input type="email" name="email"></p>
+                  <p>
+                    <label>Тип запроса:</label><br>
+                    <select name="reqtype">
+                      <option>Сотрудничество</option>
+                      <option>Техническая информация</option>
+                      <option>Ошибка на сайте</option>
+                    </select>
+                  </p>
+                  <p><b>Введите текст запроса:</b></p>
+                  <p><textarea rows="10" cols="45" name="reqtext"></textarea></p>
+                </fieldset>
+              <p><input type="submit" value="Отправить"></p>
+            </form>		
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div id="social">
+                <h1>SOCIAL NETWORKS</h1>
+                <a href="http://twitter.com/" class="social-icon twitter"></a>
+                <a href="http://google.com/" class="social-icon google"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/form.js"></script>
+    <script>
+        function formSubmit(formelem) {
+            let fname = document.getElementsByName("fname")[0].value;
+            let lname = document.getElementsByName("lname")[0].value;
+            let reqtype = document.getElementsByName("reqtype")[0].value;
+            var alerttext = `${fname} ${lname}, вы отправили запрос по теме: ${reqtype} !`;
+            alert(alerttext);
+        }
+    </script>
+</body>
+</html>

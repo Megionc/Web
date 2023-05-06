@@ -1,0 +1,23 @@
+table{
+    width: 80vw;
+    height: 40vh;
+    margin-left: 8vw;
+    font-family: sans-serif;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: rgb(152, 9, 9);
+    color: yellow;
+    border: 16px solid rgb(110, 13, 13);
+    border-radius: 20px;
+}
+
+th{
+    font-size: 18px;
+    padding: 10px;
+}
+
+td{
+    background: rgb(80, 12, 126);
+    padding: 10px;
+}
